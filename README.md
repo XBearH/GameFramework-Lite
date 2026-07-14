@@ -21,14 +21,16 @@
 - **轻量化**：不引入重型第三方依赖，保持框架简洁
 
 ## 目录结构
-
-Assets/
-├── 01-UIFramework/ # UI 框架模块
-├── 02-CharacterSystem/ # 角色系统
-├── 03-CombatSystem/ # 战斗系统
-├── 04-AIBehaviour/ # AI 行为模块
-├── Common/ # 通用基础工具
-└── Scenes/ # 各模块演示场景
+- Assets/
+  - 01-UIFramework/
+    - Prefabs/
+    - Scripts/
+    - Sprites/
+  - 02-CharacterSystem/：角色系统
+  - 03-CombatSystem/：战斗系统
+  - 04-AIBehaviour/：AI 行为模块
+  - Common/：通用基础工具
+  - Scenes/：各模块演示场景
 
 
 ## 环境要求
